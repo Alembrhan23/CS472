@@ -48,3 +48,23 @@ nav {
 .mynavul>li>a:hover {
     background-color: #23a5cd; 
 }
+
+p::first-letter {
+    font-size: 1.5em;
+    float: left;
+    margin-right: 6px; 
+    font-weight: bold; 
+    
+}
+dt{
+    color: white;
+}
+
+
+ol>li>a {
+    text-decoration: none;
+}
+
+ol>li>a:hover {
+    text-decoration: underline;
+}
