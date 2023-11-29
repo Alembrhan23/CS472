@@ -1,0 +1,50 @@
+
+body{
+    background-color: black;
+    color: goldenrod;
+    
+}
+#sec{
+    display: flex; 
+}
+#sec1{
+    margin-right: 20px;
+}
+#sec2{
+    padding-left: 50;
+}
+.myprofile{
+    clip-path: circle();
+}
+.courses-section{
+    background-image:url("../img/courses.png");
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #333; 
+}
+
+.mynavul {
+    list-style-type: none;
+    margin-left: 200px;
+    padding: 0;
+    display: flex;
+}
+
+.mynavul>li {
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.mynavul>li>a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+
+.mynavul>li>a:hover {
+    background-color: #23a5cd; /
+}
