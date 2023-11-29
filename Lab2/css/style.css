@@ -11,10 +11,10 @@ body{
     margin-right: 20px;
 }
 #sec2{
-    padding-left: 50;
+    padding-left: 40px;
 }
 .myprofile{
-    clip-path: circle();
+    border-radius: 50%;
 }
 .courses-section{
     background-image:url("../img/courses.png");
@@ -46,5 +46,5 @@ nav {
 }
 
 .mynavul>li>a:hover {
-    background-color: #23a5cd; /
+    background-color: #23a5cd; 
 }
