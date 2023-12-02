@@ -2,14 +2,70 @@
     margin: 0px;
     padding: 0px;
 }
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30px; /* Adjust the width of the logo as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar a:hover{
+    color: rgb(48, 152, 118);
+}
+
+.navbar h3 {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: rgb(233, 228, 228);
+}
 .container{
     display: flex;
-    flex-direction: row;
 }
+
 nav{
    background-color: gray;
    display: flex;
-   
 }
 h1{
     background-color: rgb(16, 72, 72);
@@ -17,7 +73,101 @@ h1{
     padding: 25px;
     text-align: center;
 }
-main{
+
+main {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.login {
+    width: 45%; 
+    padding: 20px;
+    border-right: 1px solid #ccc; /*Optional: Add a border for better visibility */
+}
+input[type="button"]{
+    background-color: black;
+    color: white;
+}
+
+.div2{
+    width: 45%; /* Adjust the width as needed */
+    padding: 20px; 
+}
+
+
+label{
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+input{
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+input{
+    width: 60%;
+    border: 2px solid #ccc;
+    padding: 8px; 
+}
+input[type="submit"]{
+    width: 140px;
+    background-color: black;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+footer {
+    background-color: rgb(188, 182, 182);
+    color: white;
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+
+
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+    width: 60%;
+    border: 2px solid #ccc;
+    padding: 8px; 
+}
+
+.img {
+    background-color: white;
+    color: white;
+    width: 100px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin-right: 5px; /* Optional: Add some spacing between the image and text */
+}
+.aforgotpass{
+    margin-left: 110px;
+    text-decoration: none;
+    color: rgb(64, 166, 180);
 }
